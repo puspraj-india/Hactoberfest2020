@@ -27,7 +27,7 @@ void leftView(node *root)
 {
 	queue<node*> q;
 	q.push(root);
-
+	// this view is done by using queue
 	while(!q.empty())
 	{
 
@@ -121,6 +121,7 @@ void inorder(node* root )
 }
 int main()
 {
+	root = NULL
 	node *root = NULL;
 	root = insert(root, 7);
 	root = insert(root, 5);
