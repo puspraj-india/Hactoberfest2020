@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-
+// This is the only way to search in bst 
+// but this is effective and good technique
 struct node 
 {
 	int data; 
